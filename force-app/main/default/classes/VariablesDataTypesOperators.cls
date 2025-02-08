@@ -49,8 +49,12 @@ public with sharing class VariablesDataTypesOperators {
      * @param b The second number.
      * @return The difference between the two numbers.
      */
-    public static Integer subtraction(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
+    public static Integer subtraction(Integer a, Integer b) { 
+        
+        if((a == null|| b == null) ){
+        return null;
+         }
+         return  a - b ;
     }
 
     /**
